@@ -12,6 +12,7 @@ namespace Understanding_Classes
         //after defining another class outside of Program class, go back Program class  to reuse them in a program
         //define method inside of Program Class that will be used inside the Program,but OUTSIDE of a Method named Main
         {
+            Console.WriteLine("Some change");
             Car myCar = new Car(); //step 2 
             //using the class called "Car" as blueprint/pattern/recipe to reuse the properties 
             myCar.Make = "Honda"; //accessing those varibles/properties in the Car class with Make Method 
